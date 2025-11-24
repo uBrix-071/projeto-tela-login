@@ -4,10 +4,12 @@
     
     body {
         background-image: linear-gradient(to bottom, lightcoral, lightsalmon);
+        background-repeat: no-repeat;
     }
 
     #login {
         width: 80vw;
+        height: 50vh;
     }
 
     div#imagem {
