@@ -16,7 +16,7 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta!</p>
-                <form action="login.php" method="post" autocomplete="on"></form>
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">key</span>
                         <input type="email" name="login" id="ilogin" placeholder="Digite seu email" autocomplete="email" maxlength="30" required>
@@ -29,8 +29,11 @@
                         <label for="isenha">Senha</label>
                     </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">Esqueci a senha</a> 
-                     <span class="material-symbols-outlined">mail</span>
+                    <div class="botao">
+                        <a href="esqueci.html">Esqueci a senha</a>
+                        <span class="material-symbols-outlined">mail</span>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
